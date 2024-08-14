@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluasi HTML Dasar</title>
+</head>
+<body>
+    <h1>Selamat Datang di Evaluasi HTML</h1>
+    <p>Ini merupakan halaman untuk mempelajari (coba-coba) HTML dasar </p>
+
+    <h2>Pengelolaan Teks :</h2>
+    <p>
+        Disini merupakan macam- macam penggunaan teks :
+        <br>
+        <strong>1. ini tulisan tebal</strong>
+        <br>
+        <em>2. ini tulisan miring</em>
+        <blockquote>
+        <em>"The only way to do great work is to love what you do."</em> <br>
+        <strong>- Steve Jobs</strong><br>
+        </blockquote>
+        <strong>Sumber :</strong>
+        Kutipan ini diambil dari pidato Steve Jobs di Stanford University pada tahun 2005.
+    </p>
+<hr>
+    <h2>Hyperlink dan Gambar :</h2>
+    <p>
+       Disini merupakan sebuah gambar beserta link penjelasan (tekan gambar Untuk penjelasan)dan link website faforit ku <br>
+       <br>
+       Ini Website Faforitku : <br>
+       <a href="https://komiku.id">KLIK KALAU MAU TAU!</a><br><br>
+
+       <a href="https://www.bing.com/ck/a?!&&p=1e2a54e6989383b4JmltdHM9MTcyMzU5MzYwMCZpZ3VpZD0xOGNkZTgyMC1iZTk1LTY1OTYtM2E5My1mYzM4YmZmZTY0YzImaW5zaWQ9NTQ1Mw&ptn=3&ver=2&hsh=3&fclid=18cde820-be95-6596-3a93-fc38bffe64c2&psq=one+piece+anime+wikipedia&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvT25lX1BpZWNl&ntb=1"><img src="https://picfiles.alphacoders.com/398/398018.jpg" alt="one piece"></a>      
+    </p>
+<hr>
+    <h2>Membuat Daftar :</h2>
+    <p>
+        Disni meruakan sebuah daftar tentang yg ingin saya capai di masa depan dan daftar apa saja hobi/aktivitas yg saya sukai.
+        <br>
+        <br>
+       <strong> Yang ingin saya capai di masa depan :</strong>
+        <ol>
+            <li>Keterima di univ Faforit</li>
+            <li>Membuat orang tua saya naik haji</li>
+            <Li>Menjadi seseorang yg sukses</Li>
+        </ol>
+        <br>
+        <strong>Hobi/aktifitas yg disukai</strong>
+        <ul>
+            <li>Bermain Game</li>
+            <li>Membaca Komik</li>
+            <li>Bermain musik</li>
+        </ul>
+    </p>
+<hr>
+    <h2>Tabel Data :</h2>
+    <p>
+        Disini adalah Tabel yg berisi informasi Umum saya :
+        <br>
+        <table border="1">
+            <tr>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Kota</th>
+            </tr>
+            <tr>
+                <td>Muhammad Ghifari</td>
+                <td>17</td>
+                <td>Bandung</td>
+            </tr>
+        </table>
+    </p>
+<hr>
+    <h2>Formulir Pendaftaran :</h2>
+    <p>
+        Ini merupakan sebuah contoh formulir :
+    </p>
+    <br>
+    <form action="/submit" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+    
+        <label for="gender">Jenis Kelamin:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Laki-laki</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Perempuan</label><br><br>
+
+        <label for="kota">Kota Asal:</label>
+        <select name="kota">
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+            <option value="surabaya">Surabaya</option>
+            <option value="Padang">Padang</option>
+            <option value="Tanggerang">Tanggerang</option>
+        </select><br><br>
+
+        <input type="checkbox" name="agreement">Saya setuju dengan syarat dan ketentuan <br><br>
+    
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan"></textarea><br><br>
+    
+        <input type="submit" value="Kirim">
+    </form>
+
+</body>
+</html>
